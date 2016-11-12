@@ -1,0 +1,7 @@
+[user]
+	name = jmz
+	email = jmz-b@users.noreply.github.com
+[push]
+	default = simple
+[core]
+	excludesfile = /home/jmz/.gitignore_global

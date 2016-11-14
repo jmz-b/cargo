@@ -121,3 +121,4 @@ fi
 export EMAIL="$(git config --get user.email)"
 export DEBFULLNAME="$(git config --get user.name)"
 export EDITOR='nvim'
+export PATH="$PATH:$HOME/.bin"

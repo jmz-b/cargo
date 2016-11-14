@@ -1,0 +1,9 @@
+#!/bin/sh
+# password input prompt using dmenu(1)
+
+dmenu -fn monospace:pixelsize=14 \
+	-nb '#fdf6e3' \
+	-nf '#fdf6e3' \
+	-sb '#eee8d5' \
+	-sf '#002b36' \
+	-p  "$1" <&- && echo

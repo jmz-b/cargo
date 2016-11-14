@@ -1,0 +1,10 @@
+#!/bin/sh
+# solarized prompt using dmenu(1)
+
+dmenu -p 'λ' \
+	-fn monospace:pixelsize=14 \
+	-nb '#fdf6e3' \
+	-nf '#002b36' \
+	-sb '#eee8d5' \
+	-sf '#002b36' \
+	"$@"

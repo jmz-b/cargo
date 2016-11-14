@@ -1,8 +1,8 @@
-# conf
+# home
 
-dotfiles and assets
+config, assets and scripts that live in my ~
 
-### example usage
+### install/manage
 
 - install GNU stow
 

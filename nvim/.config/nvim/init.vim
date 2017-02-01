@@ -16,13 +16,17 @@ set termguicolors
 set background=dark
 colorscheme flattened_dark
 
-" disable arrow keys everywhere
+" buffer nav
 
-" for k in [ '<Up>', '<Down>', '<Left>', '<Right>' ]
-" 	execute 'map '.k.' <nop>'
-" 	execute 'imap '.k.' <nop>'
-" 	execute 'map <C-W>'.k.' <nop>'
-" endfor
+nnoremap <C-n> :bnext<CR>
+nnoremap <C-p> :bprevious<CR>
+
+" window nav
+
+nnoremap <C-l> <C-W>l
+nnoremap <C-h> <C-W>h
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
 
 " explorer settings
 
@@ -31,17 +35,6 @@ let g:netrw_banner=0
 let g:netrw_dirhistmax=0
 let g:netrw_list_hide='.*\.pyc$'
 
-" custom maps
-
-nnoremap <C-n> :bnext<CR>
-nnoremap <C-p> :bprevious<CR>
-
-nnoremap <C-l> <C-W>l
-nnoremap <C-h> <C-W>h
-nnoremap <C-j> <C-W>j
-nnoremap <C-k> <C-W>k
-
-
 " funcs
 
 fun! TrimWhitespace()
@@ -49,3 +42,11 @@ fun! TrimWhitespace()
     %s/\s\+$//e
     call setpos('.', l:save_cursor)
 endfun
+
+" disable arrow keys everywhere
+
+" for k in [ '<Up>', '<Down>', '<Left>', '<Right>' ]
+" 	execute 'map '.k.' <nop>'
+" 	execute 'imap '.k.' <nop>'
+" 	execute 'map <C-W>'.k.' <nop>'
+" endfor

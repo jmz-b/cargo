@@ -1,8 +1,0 @@
-#!/bin/sh
-# Select a host defined in ssh_config(5) and optionally pass ssh(1)
-# options or a command to execute remotely by editing the selection in
-# dmenu(1)
-
-exec ssh $(awk '/^Host/ { print $2 }' "${HOME}"/.ssh/config \
-		| sort -d -b \
-		| menu -l 20)

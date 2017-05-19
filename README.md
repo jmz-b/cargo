@@ -1,14 +1,14 @@
-# Cargo
+cargo
+-----
 
 various config and script files intended to be managed using stow[1]
 
-## Example
+example
+-------
 
 this will install some useful shell scripts to ~/.local/bin
 
 ```
-git clone git://git.riplabs.net/Cargo ~/Cargo
-cd ~/Cargo
 stow bin
 ```
 

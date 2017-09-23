@@ -16,6 +16,7 @@ set bufhidden=hide
 
 set noautowrite
 set nowrap
+colorscheme flattened_light
 
 " set termguicolors
 " set background=dark

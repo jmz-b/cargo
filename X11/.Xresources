@@ -1,12 +1,4 @@
-!!      _.ooo-._   
-!!    .OOOP   _ '. 
-!!   dOOOO   (_)  \
-!!  OOOOOb         |
-!!  OOOOOOb.       |
-!!  OOOOOOOOb      |
-!!   YOO(_)OOO    /
-!!    'OOOOOY  _.'
-!!      '""""''
+!! solarzied colors
 
 #define S_base03 #002b36
 #define S_base02 #073642
@@ -116,4 +108,5 @@ URxvt*externalBorder: 0
 URxvt*internalBorder: 2
 URxvt*borderLess: false
 URxvt.intensityStyles: false
+
 *fading: 30

@@ -194,4 +194,5 @@ client.focused_inactive $S_base2  $S_base2   $S_base00 $S_base2
 client.unfocused        $S_base2  $S_base2   $S_base00 $S_base2
 client.urgent           $S_yellow $S_yellow  $S_base03 $S_yellow
 
+# Set solid background
 exec_always --no-startup-id xsetroot -solid '$S_base03'

@@ -102,7 +102,7 @@
 
 !! rxvt-unicode
 
-URxvt.font: xft:Inconsolata:size=8
+URxvt.font: xft:Inconsolata:size=12
 URxvt.scrollBar: false
 URxvt*externalBorder: 0
 URxvt*internalBorder: 2

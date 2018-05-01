@@ -6,7 +6,6 @@ xrdb -merge $HOME/.Xresources
 _JAVA_AWT_WM_NONREPARENTING=1
 export _JAVA_AWT_WM_NONREPARENTING
 
+exec redshift &> /dev/null &
 exec ~/.fehbg &
-# exec dwmstatus &
-# exec dwm
 exec i3

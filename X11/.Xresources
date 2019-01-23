@@ -107,6 +107,7 @@ URxvt.scrollBar: false
 URxvt*externalBorder: 0
 URxvt*internalBorder: 2
 URxvt*borderLess: false
-URxvt.intensityStyles: false
+URxvt*intensityStyles: false
 
 *fading: 30
+Xcursor.size: 32

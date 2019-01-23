@@ -198,7 +198,7 @@ bar {
 }
 
 # clientclass           border    backgr.    text      indicator
-client.focused          $S_base3  $S_base3   $S_base00 $S_base2
+client.focused          $S_base2  $S_base3   $S_base00 $S_base2
 client.focused_inactive $S_base2  $S_base2   $S_base00 $S_base2
 client.unfocused        $S_base2  $S_base2   $S_base00 $S_base2
 client.urgent           $S_yellow $S_yellow  $S_base03 $S_yellow

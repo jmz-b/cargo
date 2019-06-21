@@ -1,0 +1,9 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Breeze Dark Theme",
+    "workbench.colorCustomizations" : {
+        "editor.background" : "#232629",
+        "sideBar.background": "#232629"
+    },
+    "python.jediEnabled": false
+}

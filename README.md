@@ -9,7 +9,11 @@ example
 this will install some useful shell scripts to ~/.local/bin
 
 ```
-stow bin
+$ stow git
+$ ls -l ../.git*
+lrwxrwxrwx 1 jmz jmz 20 Jun 21 18:59 ../.gitconfig -> Cargo/git/.gitconfig
+lrwxrwxrwx 1 jmz jmz 27 Jun 21 18:59 ../.gitignore_global -> Cargo/git/.gitignore_global
+
 ```
 
 [1]: https://www.gnu.org/software/stow/

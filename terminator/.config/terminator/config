@@ -1,0 +1,24 @@
+[global_config]
+  tab_position = bottom
+  title_font = Hack 10
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#232629"
+    cursor_color = "#aaaaaa"
+    font = Hack 10
+    foreground_color = "#fcfcfc"
+    palette = "#232629:#da4453:#2ecc71:#f47750:#3daee9:#9b59b6:#1abc9c:#eff0f1:#31363b:#ed1515:#11d116:#f67400:#1d99f3:#8e44ad:#16a085:#fcfcfc"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False

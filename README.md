@@ -9,6 +9,7 @@ example
 this will install some useful shell scripts to ~/.local/bin
 
 ```
+$ cd ~
 $ git clone git@github.com:jmz-b/cargo.git Cargo
 $ cd Cargo
 $ stow git

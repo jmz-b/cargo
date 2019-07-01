@@ -6,8 +6,7 @@ various config and script files intended to be managed using stow[1]
 example
 -------
 
-this will install some useful shell scripts to ~/.local/bin
-
+this will install my git config
 ```
 $ cd ~
 $ git clone git@github.com:jmz-b/cargo.git Cargo
